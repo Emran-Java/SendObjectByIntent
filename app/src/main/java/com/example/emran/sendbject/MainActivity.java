@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
 
                 //Initialize new person object
                 final PersonData dataObj = new PersonData(name, id);
-
                 sendObjectOtherActivity(dataObj);
             }
         });
