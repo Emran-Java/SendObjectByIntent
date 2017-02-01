@@ -17,12 +17,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button main_button = (Button) findViewById(R.id.btnSendObj);
+        Button mainButton = (Button) findViewById(R.id.btnSendObj);
         txtName = (EditText) findViewById(R.id.edtTxtName);
         txtID = (EditText) findViewById(R.id.edtTxtID);
 
         //set click listener
-        main_button.setOnClickListener(new View.OnClickListener() {
+        mainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //Get user name and id
